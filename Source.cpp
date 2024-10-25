@@ -139,7 +139,7 @@ void Render()
 	if (currentGameState == GAME_ACTIVE)
 	{
 		// draw background
-		Renderer->DrawSprite(bg_TextureID, glm::vec2(0.0f, 0.0f), glm::vec2(WIDTH + 50, HEIGHT), 0.0f, vec3(1, 1, 1), modelMat_Location, spriteColor_Location);
+		Renderer->DrawSprite(bg_TextureID, glm::vec2(0.0f, 0.0f), glm::vec2(WIDTH, HEIGHT), 0.0f, vec3(1, 1, 1), modelMat_Location, spriteColor_Location);
 
 		// draw level
 		Levels[currentLevel].Draw(Renderer);
