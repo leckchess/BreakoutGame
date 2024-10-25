@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\Study\OpenGL-SFML\Breakout Game\Source.cpp(117,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Study\OpenGL-SFML\Breakout Game\Source.cpp(120,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Study\OpenGL-SFML\Breakout Game\Source.cpp(123,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+D:\Study\OpenGL-SFML\Breakout Game\Source.cpp(126,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  Breakout Game.vcxproj -> D:\Study\OpenGL-SFML\Breakout Game\Debug\Breakout Game.exe
