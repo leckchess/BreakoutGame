@@ -46,7 +46,7 @@ void GameLevel::Draw(SpriteRenderer* Renderer)
 
 bool GameLevel::IsCompleted()
 {
-	for (GameObject& tile : this->Bricks)
+	for (GameObject& tile : Bricks)
 		if (!tile.IsSolid && !tile.Destroyed)
 			return false;
 	return true;
